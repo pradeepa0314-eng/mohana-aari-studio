@@ -468,3 +468,128 @@ footer {
     border:2px solid black;
     transform:translateY(-6px) scale(1.1);
 }
+
+/* =========================
+   MOBILE RESPONSIVE DESIGN
+========================= */
+@media (max-width: 768px) {
+
+  /* NAVBAR */
+  .navbar {
+    padding: 10px 20px;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .left {
+    gap: 10px;
+  }
+
+  .logo {
+    height: 50px;
+  }
+
+  .logo1 {
+    font-size: 18px;
+    letter-spacing: 1px;
+  }
+
+  .nav-links {
+    gap: 15px;
+  }
+
+  .nav-links a {
+    font-size: 14px;
+  }
+
+  /* HERO */
+  .hero {
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+  }
+
+  .hero-content {
+    width: 100%;
+  }
+
+  .tagline {
+    font-size: 15px;
+  }
+
+  .hero h1 {
+    font-size: 38px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+  }
+
+  .hero-subtitle {
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 25px;
+  }
+
+  /* FEATURES */
+  .hero-features {
+    align-items: center;
+    gap: 8px;
+  }
+
+  .feature-item {
+    font-size: 16px;
+  }
+
+  /* BUTTONS */
+  .hero-buttons {
+    margin-left: 0;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .btn {
+    width: 80%;
+    text-align: center;
+    padding: 12px;
+    font-size: 16px;
+  }
+
+  /* ABOUT */
+  .about-section {
+    padding: 20px;
+    flex-direction: column;
+  }
+
+  .about-image img {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  /* FEATURES GRID */
+  .features {
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
+
+  /* IMAGE GRID */
+  .image-grid img {
+    height: 100px;
+  }
+
+  /* SOCIAL */
+  .social-icons {
+    gap: 15px;
+  }
+
+  .social-icons a {
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+  }
+
+  .social-icons a::after {
+    display: none;
+  }
+}
